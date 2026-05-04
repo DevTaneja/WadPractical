@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Catalog</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Product Catalog</h2>
+
+    <!-- Product Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Image</th>
+          <th>Price (₹)</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+
+      <tbody id="tableBody">
+        <!-- Data will come from JS -->
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <div>
+      <button onclick="prevPage()">Previous</button>
+      <span id="pageInfo"></span>
+      <button onclick="nextPage()">Next</button>
+    </div>
+
+    <!-- Link JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

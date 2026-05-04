@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>PICT Mobile Site</title>
+
+    <!-- jQuery Mobile -->
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+      body {
+        background: #f5f5f5;
+      }
+
+      .ui-header {
+        background: #007bff !important;
+        color: white !important;
+      }
+
+      h1,
+      h3 {
+        text-align: center;
+      }
+
+      .ui-content {
+        padding: 20px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HOME PAGE -->
+
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>PICT</h1>
+      </div>
+
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div data-role="content">
+        <h3>Welcome to PICT</h3>
+        <p>Top engineering college in Pune.</p>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div data-role="page" id="about">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div data-role="header">
+        <h1>About Us</h1>
+      </div>
+
+      <div data-role="content">
+        <p>PICT is known for academic excellence.</p>
+      </div>
+    </div>
+
+    <!-- COURSES -->
+
+    <div data-role="page" id="courses">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div data-role="header">
+        <h1>Courses</h1>
+      </div>
+
+      <div data-role="content">
+        <div data-role="collapsible">
+          <h3>Computer Engineering</h3>
+          <p>Core programming and systems.</p>
+        </div>
+
+        <div data-role="collapsible">
+          <h3>IT</h3>
+          <p>Software and networking.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div data-role="page" id="contact">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div data-role="header">
+        <h1>Contact</h1>
+      </div>
+
+      <div data-role="content">
+        <p>Email: pict@college.com</p>
+      </div>
+    </div>
+  </body>
+</html>

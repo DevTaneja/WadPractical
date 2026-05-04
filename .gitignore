@@ -1,0 +1,95 @@
+# ========================
+
+# NODE MODULES (ALL SUBFOLDERS)
+
+# ========================
+
+node_modules/
+**/node_modules/
+
+# ========================
+
+# ANGULAR BUILD FILES
+
+# ========================
+
+dist/
+build/
+.angular/
+.out/
+coverage/
+
+# ========================
+
+# LOG FILES
+
+# ========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+
+# ENV FILES (IMPORTANT)
+
+# ========================
+
+.env
+.env.*
+
+# ========================
+
+# OS FILES
+
+# ========================
+
+.DS_Store
+Thumbs.db
+
+# ========================
+
+# IDE FILES
+
+# ========================
+
+.vscode/
+.idea/
+*.swp
+
+# ========================
+
+# TYPESCRIPT / ANGULAR CACHE
+
+# ========================
+
+*.tsbuildinfo
+
+# ========================
+
+# PACKAGE LOCK (OPTIONAL)
+
+# ========================
+
+# Uncomment if you DON'T want lock files
+
+# package-lock.json
+
+# yarn.lock
+
+# ========================
+
+# MONGO / DATABASE FILES
+
+# ========================
+
+*.db
+
+# ========================
+
+# UPLOADS (if any)
+
+# ========================
+
+uploads/
